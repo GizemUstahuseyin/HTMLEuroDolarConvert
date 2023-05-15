@@ -1,0 +1,21 @@
+<DOCTYPE! HTML>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Example1</title>
+    </head>
+    <body>
+        <h1>US DOLLAR EURO CEVIRI( 1 Dolar-0.83 Euro )</h1>
+
+        <h2>US Dollar: <span id="usdolar"></span></h2>
+        <h2>Euro:<span id="euro"></span></h2>
+
+        <script>
+            var dolar = parseInt(prompt("Lutfen tutari giriniz!"));
+            var euro = dolar * 0.83;
+
+        document.getElementById('usdolar').innerHTML = dolar;
+        document.getElementById('euro').innerHTML = euro;
+        </script>
+    </body>
+    </html>
